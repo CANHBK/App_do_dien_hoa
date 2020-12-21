@@ -1,0 +1,332 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mandevices.dodienhoa"
+4    android:versionCode="39"
+5    android:versionName="1.3.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml
+10
+11    <!--
+12    Declare this required feature if you want to make the app available to BLE-capable
+13    devices only.  If you want to make your app available to devices that don't support BLE,
+14    you should omit this in the manifest.  Instead, determine BLE capability by using
+15    PackageManager.hasSystemFeature(FEATURE_BLUETOOTH_LE)
+16    -->
+17    <uses-feature
+17-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:13:5-15:35
+18        android:name="android.hardware.bluetooth_le"
+18-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:14:9-53
+19        android:required="true" />
+19-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:15:9-32
+20
+21    <uses-permission android:name="android.permission.BLUETOOTH" />
+21-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:17:5-68
+21-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:17:22-65
+22    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+22-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:18:5-74
+22-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:18:22-71
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:19:5-81
+23-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:19:22-78
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+24-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:20:5-80
+24-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:20:22-77
+25    <uses-permission android:name="android.permission.INTERNET" />
+25-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:21:5-67
+25-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:21:22-64
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:22:5-79
+26-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:22:22-76
+27    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+27-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:23:5-79
+27-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:23:22-76
+28    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+28-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:24:5-85
+28-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:24:22-82
+29    <!--
+30    Apps that target Android 10 (API level 29) can still request the requestLegacyExternalStorage attribute.
+31    After you update your app to target Android 11, the system ignores the requestLegacyExternalStorage flag.
+32    -->
+33    <application
+33-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:30:5-168:19
+34        android:name="com.mandevices.dodienhoa.CySmartApplication"
+34-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:31:9-67
+35        android:allowBackup="true"
+35-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:32:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.3.1] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\bb39ea0a726041ab478566c42daa0a7a\core-1.3.1\AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:enabled="true"
+38-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:33:9-31
+39        android:extractNativeLibs="false"
+40        android:icon="@drawable/appicon"
+40-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:34:9-41
+41        android:label="@string/app_name"
+41-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:35:9-41
+42        android:requestLegacyExternalStorage="true"
+42-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:36:9-52
+43        android:supportsRtl="true"
+43-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:37:9-35
+44        android:testOnly="true"
+45        android:theme="@style/AppTheme" >
+45-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:38:9-40
+46        <service
+46-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:40:9-42:38
+47            android:name="com.mandevices.dodienhoa.BLEConnectionServices.BluetoothLeService"
+47-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:41:13-93
+48            android:enabled="true" />
+48-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:42:13-35
+49
+50        <receiver
+50-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:44:9-51:20
+51            android:name="com.mandevices.dodienhoa.OTAFirmwareUpdate.OTAResponseReceiver_v0"
+51-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:45:13-93
+52            android:enabled="true"
+52-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:46:13-35
+53            android:exported="false" >
+53-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:47:13-37
+54            <intent-filter>
+54-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:48:13-50:29
+55                <action android:name="com.cysmart.bluetooth.le.ACTION_OTA_DATA_AVAILABLE" />
+55-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:49:17-93
+55-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:49:25-90
+56            </intent-filter>
+57        </receiver>
+58        <receiver
+58-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:52:9-59:20
+59            android:name="com.mandevices.dodienhoa.OTAFirmwareUpdate.OTAResponseReceiver_v1"
+59-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:53:13-93
+60            android:enabled="true"
+60-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:54:13-35
+61            android:exported="false" >
+61-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:55:13-37
+62            <intent-filter>
+62-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:56:13-58:29
+63                <action android:name="com.cysmart.bluetooth.le.ACTION_OTA_DATA_AVAILABLE_V1" />
+63-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:57:17-96
+63-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:57:25-93
+64            </intent-filter>
+65        </receiver>
+66        <receiver
+66-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:60:9-67:20
+67            android:name="com.mandevices.dodienhoa.BLEStatusReceiver"
+67-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:61:13-70
+68            android:enabled="true"
+68-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:62:13-35
+69            android:exported="false" >
+69-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:63:13-37
+70            <intent-filter>
+70-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:64:13-66:29
+71                <action android:name="com.example.bluetooth.le.ACTION_GATT_DISCONNECTED" />
+71-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:65:17-92
+71-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:65:25-89
+72            </intent-filter>
+73        </receiver>
+74
+75        <activity
+75-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:69:9-80:20
+76            android:name="com.mandevices.dodienhoa.SplashPageActivity"
+76-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:70:13-71
+77            android:configChanges="orientation|screenSize"
+77-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:71:13-59
+78            android:label="@string/app_name"
+78-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:72:13-45
+79            android:theme="@style/AppTheme.NoActionBar" >
+79-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:73:13-56
+80            <intent-filter>
+80-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:74:13-79:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:75:17-69
+81-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:75:25-66
+82
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:77:17-77
+83-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:77:27-74
+84            </intent-filter>
+85        </activity>
+86
+87        <!--
+88        NOTE: android:launchMode changed from "singleTask" to "standard" to allow creation of new instances of HPA (instead of reusing existing ones)
+89        for startActivity with flags Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK
+90        -->
+91        <activity
+91-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:84:9-150:20
+92            android:name="com.mandevices.dodienhoa.HomePageActivity"
+92-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:85:13-69
+93            android:configChanges="orientation|screenSize"
+93-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:86:13-59
+94            android:launchMode="standard"
+94-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:87:13-42
+95            android:theme="@style/AppTheme"
+95-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:88:13-44
+96            android:windowSoftInputMode="adjustPan" >
+96-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:89:13-52
+97            <meta-data
+97-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:90:13-92:64
+98                android:name="android.app.searchable"
+98-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:91:17-54
+99                android:resource="@xml/searchable" />
+99-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:92:17-51
+100            <!-- For email attachments -->
+101            <intent-filter>
+101-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:94:13-101:29
+102                <action android:name="android.intent.action.VIEW" />
+102-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:95:17-69
+102-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:95:25-66
+103
+104                <category android:name="android.intent.category.DEFAULT" />
+104-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:96:17-76
+104-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:96:27-73
+105
+106                <data
+106-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:97:17-100:48
+107                    android:mimeType="application/octet-stream"
+107-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:98:21-64
+108                    android:pathPattern=".*\\.cyacd"
+108-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:99:21-53
+109                    android:scheme="content" />
+109-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:100:21-45
+110            </intent-filter>
+111            <intent-filter>
+111-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:102:13-109:29
+112                <action android:name="android.intent.action.VIEW" />
+112-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:95:17-69
+112-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:95:25-66
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:96:17-76
+114-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:96:27-73
+115
+116                <data
+116-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:97:17-100:48
+117                    android:mimeType="application/octet-stream"
+117-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:98:21-64
+118                    android:pathPattern=".*\\.cyacd2"
+118-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:99:21-53
+119                    android:scheme="content" />
+119-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:100:21-45
+120            </intent-filter>
+121            <!-- For file browsers -->
+122            <intent-filter>
+122-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:111:13-119:29
+123                <action android:name="android.intent.action.VIEW" />
+123-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:95:17-69
+123-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:95:25-66
+124
+125                <category android:name="android.intent.category.DEFAULT" />
+125-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:96:17-76
+125-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:96:27-73
+126
+127                <data
+127-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:97:17-100:48
+128                    android:host="*"
+128-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:115:21-37
+129                    android:mimeType="*/*"
+129-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:98:21-64
+130                    android:pathPattern=".*\\.cyacd"
+130-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:99:21-53
+131                    android:scheme="file" />
+131-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:100:21-45
+132            </intent-filter>
+133            <intent-filter>
+133-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:120:13-128:29
+134                <action android:name="android.intent.action.VIEW" />
+134-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:95:17-69
+134-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:95:25-66
+135
+136                <category android:name="android.intent.category.DEFAULT" />
+136-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:96:17-76
+136-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:96:27-73
+137
+138                <data
+138-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:97:17-100:48
+139                    android:host="*"
+139-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:115:21-37
+140                    android:mimeType="*/*"
+140-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:98:21-64
+141                    android:pathPattern=".*\\.cyacd2"
+141-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:99:21-53
+142                    android:scheme="file" />
+142-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:100:21-45
+143            </intent-filter>
+144            <!-- For web browsers -->
+145            <intent-filter>
+145-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:130:13-139:29
+146                <action android:name="android.intent.action.VIEW" />
+146-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:95:17-69
+146-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:95:25-66
+147
+148                <category android:name="android.intent.category.BROWSABLE" />
+148-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:133:17-78
+148-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:133:27-75
+149                <category android:name="android.intent.category.DEFAULT" />
+149-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:96:17-76
+149-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:96:27-73
+150
+151                <data android:scheme="http" />
+151-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:97:17-100:48
+151-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:100:21-45
+152                <data android:host="*" />
+152-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:97:17-100:48
+152-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:115:21-37
+153                <data android:pathPattern=".*\\.cyacd" />
+153-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:97:17-100:48
+153-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:99:21-53
+154            </intent-filter>
+155            <intent-filter>
+155-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:140:13-149:29
+156                <action android:name="android.intent.action.VIEW" />
+156-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:95:17-69
+156-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:95:25-66
+157
+158                <category android:name="android.intent.category.BROWSABLE" />
+158-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:133:17-78
+158-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:133:27-75
+159                <category android:name="android.intent.category.DEFAULT" />
+159-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:96:17-76
+159-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:96:27-73
+160
+161                <data android:scheme="http" />
+161-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:97:17-100:48
+161-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:100:21-45
+162                <data android:host="*" />
+162-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:97:17-100:48
+162-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:115:21-37
+163                <data android:pathPattern=".*\\.cyacd2" />
+163-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:97:17-100:48
+163-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:99:21-53
+164            </intent-filter>
+165        </activity>
+166        <activity
+166-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:152:9-159:20
+167            android:name="com.mandevices.dodienhoa.OTAFirmwareUpdate.OTAFilesListingActivity"
+167-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:153:13-94
+168            android:configChanges="orientation|screenSize"
+168-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:154:13-59
+169            android:parentActivityName="com.mandevices.dodienhoa.HomePageActivity"
+169-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:155:13-83
+170            android:theme="@style/AppTheme.NoActionBar"
+170-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:156:13-56
+171            android:windowSoftInputMode="adjustPan" >
+171-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:157:13-52
+172        </activity>
+173        <activity
+173-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:160:9-167:20
+174            android:name="com.mandevices.dodienhoa.DataLoggerFragments.DataLoggerHistoryList"
+174-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:161:13-94
+175            android:configChanges="orientation|screenSize"
+175-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:162:13-59
+176            android:parentActivityName="com.mandevices.dodienhoa.HomePageActivity"
+176-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:163:13-83
+177            android:theme="@style/AppTheme.NoActionBar"
+177-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:164:13-56
+178            android:windowSoftInputMode="adjustPan" >
+178-->C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:165:13-52
+179        </activity>
+180    </application>
+181
+182</manifest>

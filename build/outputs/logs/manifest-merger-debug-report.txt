@@ -1,0 +1,369 @@
+-- Merging decision tree log ---
+manifest
+INJECTED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:2:1-169:12
+INJECTED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:2:1-169:12
+INJECTED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:2:1-169:12
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\0f68f02d4eb7c899392de0300a07285a\material-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\01ebbcc53ff1c876822b1ce7aa410125\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\f4c0d726fc0e5d830b8d8bc9f7d0a396\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\fc0ebf98bfff26182ffe415472d45e01\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:2:1-20:12
+MERGED from [com.robinhood.spark:spark:1.2.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\b01a3d052e8e589de17d763cd9765caf\jetified-spark-1.2.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\87d60acab96568223a3362ff5a1e4c12\jetified-graphview-4.2.2\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\7e27c7d396810af644fcc2d5ec8384aa\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\e40a377249758d23414d21222f000040\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\a87a91cfc12796be4a5399f6708c1bed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\ec405108832dd0d34725ec01b1378307\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\7eb3e9033e20967dc4b6eab4b9d34b59\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\63dac4b0f8ef13947ce880083f712369\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\369c371dbc36cd3420e0891af4dc30b8\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\271d0ad8fab014e1b69399f7396f344c\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\73b741376758043ca71b2712dd6b8e85\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\8820464f905e976a0e372e114ed12d81\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\69b157e8ca7c4f8e65106af271a2dd62\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\ee8663f4341a41303331ea0b304242d0\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\b685d122498cf50e728d648d063a2ff6\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\3dd2a90cf4903229672e8d620934c6ca\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\d1290085211f6ca31e4b44ad501b0e7c\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\db341947bb3b430f2ccfc05cfed8623a\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\4764869116b7944d884a78eb3b5d999f\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\97f01785cab2549e8be5ef5c8b1dbcb3\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\3584c755b13ff246a30ea06b73bd9d78\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\92a82d0e6836fc2764f8a4c5ae17cc0a\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\fee859eac2601f0c53561481b8362e20\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\2d0e89544ecc30a9184b81b65acf458e\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\bb39ea0a726041ab478566c42daa0a7a\core-1.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\0e4335c82d4d573388d62295e89eaaed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\4dea87d08cf4eca2be6818de5406de80\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\9c87d4ce634b90f093cf672ae75a3e2d\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\f2e8952936b7109d6ac9ab1e40e3d573\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\30612fa1f33fcbb3e456c3a5f852366f\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\4b326e320f7fb8e89e2bb3879ac950d2\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\ba74e7a1df14494ca70ea72adf4fc3bf\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\5d6ed104b1267309eec087762b08ed9e\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\9c0d2720907bb8bd5d5976efee735314\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\d00c90699ae27cc1e1ce5e4b3e530617\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\13ac386f95e101744ae5f7d486caaa8c\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\bef2ac585d83c283d2fd49a0b9ae8f63\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:2:1-169:12
+INJECTED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:2:1-169:12
+	package
+		INJECTED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:5:5-42
+	xmlns:android
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:4:5-29
+		INJECTED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml
+uses-sdk
+INJECTED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml
+INJECTED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\0f68f02d4eb7c899392de0300a07285a\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\0f68f02d4eb7c899392de0300a07285a\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\01ebbcc53ff1c876822b1ce7aa410125\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\01ebbcc53ff1c876822b1ce7aa410125\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\f4c0d726fc0e5d830b8d8bc9f7d0a396\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\f4c0d726fc0e5d830b8d8bc9f7d0a396\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\fc0ebf98bfff26182ffe415472d45e01\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\fc0ebf98bfff26182ffe415472d45e01\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.robinhood.spark:spark:1.2.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\b01a3d052e8e589de17d763cd9765caf\jetified-spark-1.2.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.robinhood.spark:spark:1.2.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\b01a3d052e8e589de17d763cd9765caf\jetified-spark-1.2.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\87d60acab96568223a3362ff5a1e4c12\jetified-graphview-4.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\87d60acab96568223a3362ff5a1e4c12\jetified-graphview-4.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\7e27c7d396810af644fcc2d5ec8384aa\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\7e27c7d396810af644fcc2d5ec8384aa\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\e40a377249758d23414d21222f000040\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\e40a377249758d23414d21222f000040\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\a87a91cfc12796be4a5399f6708c1bed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\a87a91cfc12796be4a5399f6708c1bed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\ec405108832dd0d34725ec01b1378307\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\ec405108832dd0d34725ec01b1378307\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\7eb3e9033e20967dc4b6eab4b9d34b59\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\7eb3e9033e20967dc4b6eab4b9d34b59\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\63dac4b0f8ef13947ce880083f712369\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\63dac4b0f8ef13947ce880083f712369\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\369c371dbc36cd3420e0891af4dc30b8\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\369c371dbc36cd3420e0891af4dc30b8\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\271d0ad8fab014e1b69399f7396f344c\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\271d0ad8fab014e1b69399f7396f344c\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\73b741376758043ca71b2712dd6b8e85\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\73b741376758043ca71b2712dd6b8e85\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\8820464f905e976a0e372e114ed12d81\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\8820464f905e976a0e372e114ed12d81\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\69b157e8ca7c4f8e65106af271a2dd62\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\69b157e8ca7c4f8e65106af271a2dd62\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\ee8663f4341a41303331ea0b304242d0\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\ee8663f4341a41303331ea0b304242d0\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\b685d122498cf50e728d648d063a2ff6\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\b685d122498cf50e728d648d063a2ff6\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\3dd2a90cf4903229672e8d620934c6ca\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\3dd2a90cf4903229672e8d620934c6ca\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\d1290085211f6ca31e4b44ad501b0e7c\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\d1290085211f6ca31e4b44ad501b0e7c\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\db341947bb3b430f2ccfc05cfed8623a\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\db341947bb3b430f2ccfc05cfed8623a\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\4764869116b7944d884a78eb3b5d999f\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\4764869116b7944d884a78eb3b5d999f\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\97f01785cab2549e8be5ef5c8b1dbcb3\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\97f01785cab2549e8be5ef5c8b1dbcb3\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\3584c755b13ff246a30ea06b73bd9d78\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\3584c755b13ff246a30ea06b73bd9d78\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\92a82d0e6836fc2764f8a4c5ae17cc0a\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\92a82d0e6836fc2764f8a4c5ae17cc0a\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\fee859eac2601f0c53561481b8362e20\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\fee859eac2601f0c53561481b8362e20\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\2d0e89544ecc30a9184b81b65acf458e\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\2d0e89544ecc30a9184b81b65acf458e\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\bb39ea0a726041ab478566c42daa0a7a\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\bb39ea0a726041ab478566c42daa0a7a\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\0e4335c82d4d573388d62295e89eaaed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\0e4335c82d4d573388d62295e89eaaed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\4dea87d08cf4eca2be6818de5406de80\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\4dea87d08cf4eca2be6818de5406de80\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\9c87d4ce634b90f093cf672ae75a3e2d\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\9c87d4ce634b90f093cf672ae75a3e2d\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\f2e8952936b7109d6ac9ab1e40e3d573\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\f2e8952936b7109d6ac9ab1e40e3d573\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\30612fa1f33fcbb3e456c3a5f852366f\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\30612fa1f33fcbb3e456c3a5f852366f\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\4b326e320f7fb8e89e2bb3879ac950d2\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\4b326e320f7fb8e89e2bb3879ac950d2\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\ba74e7a1df14494ca70ea72adf4fc3bf\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\ba74e7a1df14494ca70ea72adf4fc3bf\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\5d6ed104b1267309eec087762b08ed9e\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\5d6ed104b1267309eec087762b08ed9e\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\9c0d2720907bb8bd5d5976efee735314\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\9c0d2720907bb8bd5d5976efee735314\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\d00c90699ae27cc1e1ce5e4b3e530617\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\d00c90699ae27cc1e1ce5e4b3e530617\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\13ac386f95e101744ae5f7d486caaa8c\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\13ac386f95e101744ae5f7d486caaa8c\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\bef2ac585d83c283d2fd49a0b9ae8f63\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\bef2ac585d83c283d2fd49a0b9ae8f63\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml
+INJECTED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml
+		INJECTED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml
+		INJECTED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml
+uses-feature#android.hardware.bluetooth_le
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:13:5-15:35
+	android:required
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:15:9-32
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:14:9-53
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:17:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:18:5-74
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:18:22-71
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:20:22-77
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:21:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:24:5-85
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:24:22-82
+application
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:30:5-168:19
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\0f68f02d4eb7c899392de0300a07285a\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\0f68f02d4eb7c899392de0300a07285a\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\01ebbcc53ff1c876822b1ce7aa410125\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\01ebbcc53ff1c876822b1ce7aa410125\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\87d60acab96568223a3362ff5a1e4c12\jetified-graphview-4.2.2\AndroidManifest.xml:11:5-12:19
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\87d60acab96568223a3362ff5a1e4c12\jetified-graphview-4.2.2\AndroidManifest.xml:11:5-12:19
+MERGED from [androidx.core:core:1.3.1] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\bb39ea0a726041ab478566c42daa0a7a\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\bb39ea0a726041ab478566c42daa0a7a\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\0e4335c82d4d573388d62295e89eaaed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\0e4335c82d4d573388d62295e89eaaed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:36:9-52
+	android:enabled
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:33:9-31
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] C:\Users\Canh\.gradle\caches\transforms-2\files-2.1\bb39ea0a726041ab478566c42daa0a7a\core-1.3.1\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:37:9-35
+	android:label
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:35:9-41
+	android:icon
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:34:9-41
+	android:allowBackup
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:32:9-35
+	android:theme
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:38:9-40
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:31:9-67
+service#com.mandevices.dodienhoa.BLEConnectionServices.BluetoothLeService
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:40:9-42:38
+	android:enabled
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:42:13-35
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:41:13-93
+receiver#com.mandevices.dodienhoa.OTAFirmwareUpdate.OTAResponseReceiver_v0
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:44:9-51:20
+	android:enabled
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:45:13-93
+intent-filter#action:name:com.cysmart.bluetooth.le.ACTION_OTA_DATA_AVAILABLE
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:48:13-50:29
+action#com.cysmart.bluetooth.le.ACTION_OTA_DATA_AVAILABLE
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:49:17-93
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:49:25-90
+receiver#com.mandevices.dodienhoa.OTAFirmwareUpdate.OTAResponseReceiver_v1
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:52:9-59:20
+	android:enabled
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:54:13-35
+	android:exported
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:53:13-93
+intent-filter#action:name:com.cysmart.bluetooth.le.ACTION_OTA_DATA_AVAILABLE_V1
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:56:13-58:29
+action#com.cysmart.bluetooth.le.ACTION_OTA_DATA_AVAILABLE_V1
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:57:17-96
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:57:25-93
+receiver#com.mandevices.dodienhoa.BLEStatusReceiver
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:60:9-67:20
+	android:enabled
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:62:13-35
+	android:exported
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:61:13-70
+intent-filter#action:name:com.example.bluetooth.le.ACTION_GATT_DISCONNECTED
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:64:13-66:29
+action#com.example.bluetooth.le.ACTION_GATT_DISCONNECTED
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:65:17-92
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:65:25-89
+activity#com.mandevices.dodienhoa.SplashPageActivity
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:69:9-80:20
+	android:label
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:72:13-45
+	android:configChanges
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:71:13-59
+	android:theme
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:73:13-56
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:70:13-71
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:74:13-79:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:75:17-69
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:75:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:77:17-77
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:77:27-74
+activity#com.mandevices.dodienhoa.HomePageActivity
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:84:9-150:20
+	android:launchMode
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:87:13-42
+	android:windowSoftInputMode
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:89:13-52
+	android:configChanges
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:86:13-59
+	android:theme
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:88:13-44
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:85:13-69
+meta-data#android.app.searchable
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:90:13-92:64
+	android:resource
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:92:17-51
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:91:17-54
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:application/octet-stream+data:pathPattern:.*\\.cyacd+data:scheme:content
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:94:13-101:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:95:17-69
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:95:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:96:17-76
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:96:27-73
+data
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:97:17-100:48
+	android:host
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:115:21-37
+	android:scheme
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:100:21-45
+	android:pathPattern
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:99:21-53
+	android:mimeType
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:98:21-64
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:application/octet-stream+data:pathPattern:.*\\.cyacd2+data:scheme:content
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:102:13-109:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:.*\\.cyacd+data:scheme:file
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:111:13-119:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:.*\\.cyacd2+data:scheme:file
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:120:13-128:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:pathPattern:.*\\.cyacd+data:scheme:http
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:130:13-139:29
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:133:17-78
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:133:27-75
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:pathPattern:.*\\.cyacd2+data:scheme:http
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:140:13-149:29
+activity#com.mandevices.dodienhoa.OTAFirmwareUpdate.OTAFilesListingActivity
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:152:9-159:20
+	android:parentActivityName
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:155:13-83
+	android:windowSoftInputMode
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:157:13-52
+	android:configChanges
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:154:13-59
+	android:theme
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:156:13-56
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:153:13-94
+activity#com.mandevices.dodienhoa.DataLoggerFragments.DataLoggerHistoryList
+ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:160:9-167:20
+	android:parentActivityName
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:163:13-83
+	android:windowSoftInputMode
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:165:13-52
+	android:configChanges
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:162:13-59
+	android:theme
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:164:13-56
+	android:name
+		ADDED from C:\Users\Canh\Desktop\CySmart_Android_1.3.0.139_Source_Code\AndroidManifest.xml:161:13-94

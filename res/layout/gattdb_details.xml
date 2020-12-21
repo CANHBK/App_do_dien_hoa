@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:clickable="true">
+
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            app:layout_constraintStart_toStartOf="@id/parent"
+            app:layout_constraintTop_toTopOf="@id/parent">
+
+            <TextView
+                android:id="@+id/txtheading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/gatt_services_details"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/actionbar_bg_color"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/app_name"
+                android:padding="10dp"
+                android:src="@drawable/back_btn" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relative"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="@id/parent"
+            app:layout_constraintTop_toBottomOf="@id/relative">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".8"
+                android:drawableRight="@drawable/col_icon"
+                android:gravity="center|left"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:text="@string/gatt_services"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/actionbar_bg_color"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtservicename"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ellipsize="marquee"
+                android:focusable="false"
+                android:gravity="center|left"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/actionbar_bg_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_alignLeft="@+id/linearLayout1"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="@id/parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout1">
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/graph2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <com.jjoe64.graphview.GraphView
+                android:visibility="gone"
+                android:id="@+id/graph3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <com.jjoe64.graphview.GraphView
+                android:visibility="gone"
+                android:id="@+id/graph"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_alignLeft="@+id/linearLayout2"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/list_bg_small"
+            app:layout_constraintStart_toStartOf="@id/parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/gatt_services_ascii"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/actionbar_bg_color" />
+
+            <EditText
+                android:id="@+id/txtascii"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/actionbar_bg_color" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/properties_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            app:layout_constraintStart_toStartOf="@id/parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout3">
+
+            <TextView
+                android:id="@+id/txtread"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/gatt_services_read"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/txtwrite"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/gatt_services_write"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/txtnotify"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/gatt_services_notify"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/txtindicate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/gatt_services_indicate"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:visibility="visible" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
